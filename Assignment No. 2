@@ -34,4 +34,12 @@ values for the operator and what it evaluate ).
           1     |   0
           
 
-         
+
+5. What are the six comparison operators?
+--->1] Equal : x == y	
+    2] Not Equal : x!=y
+    3] Greater than :x > y	
+    4] Less than : x < y
+    5] Greater than or equal to : x >= y	
+    6] Less than or equal to :	x <= y
+    
