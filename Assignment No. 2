@@ -42,4 +42,48 @@ values for the operator and what it evaluate ).
     4] Less than : x < y
     5] Greater than or equal to : x >= y	
     6] Less than or equal to :	x <= y
-    
+6. How do you tell the difference between the equal to and assignment operators?Describe a
+condition and when you would use one.
+---> = : It is an assignment operator. , == : It is a relational or comparison operator.
+     + : if want to store data that time we use assignment operator. == : if I try to compare variable a variable and b variable that time i use '==' (a==b)
+
+7. Identify the three blocks in this code:
+spam = 0
+if spam == 10:
+  print('eggs')
+  if spam > 5:
+      print('bacon')
+  else:
+      print('ham')
+      print('spam')
+print('spam')
+--->print('eggs')
+    if spam == 10:
+      print('bacon')
+    else:
+      print('ham')
+      print('spam')
+8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints
+Greetings! if anything else is stored in spam.
+--->spam = int(input("Enter a Value :  "))
+    if spam == 1:
+        print('Hello')
+    elif spam == 2:
+        print('Howdy')
+    else:
+        print("Greeting!")
+ 
+ 9.If your programme is stuck in an endless loop, what keys you’ll press?
+ ---> Ctrl + C
+ 10. How can you tell the difference between break and continue?
+ ---> 1] Break : Stop the loop in which the statement is Placed.
+         if i have list , i want to stop a program after second item .
+      2] Continue : skips a single iteration in loop.
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+---> 1] range(10) : generate number from 0 to 9
+     2] range(0,10) : generate number from 0 to 9, but if i will give range(5,10) then it will generate number between 5 to 9  
+     3]range(0,10,1) : here 0 is starting 10 ending and 1 is step size. other than 1 i will give 2 then i will generate number like [0, 2, 4, 6, 8]
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent
+program that prints the numbers 1 to 10 using a while loop.
+---> for loop : for i in range(0,11):
+                    print(i)
