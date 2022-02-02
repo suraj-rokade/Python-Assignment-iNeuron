@@ -1,2 +1,23 @@
 1. Why are functions advantageous to have in your programs?
---->
+---> using function i can run same program muliple time,
+     We break long program in multiple small function.
+     Function can share with another ,
+     Functions can be shared and used by other programmers.
+2. When does the code in a function run: when it's specified or when it't is called?
+---> When a function is called and starts executing the function
+3. What statement creates a function?
+---> 'def' keyworld create a function.
+4. What is the difference between a function and a function call?
+---> function contain some instruction and i want get benefit from function that time i will use function call.
+5. How many global scopes are there in a Python program? How many local scopes?
+---> def fun():
+          x = 2022
+          return x
+     here x is local scope, x can only use inside a function
+     ----------------------------------------------------------
+     x = 200
+     def func1():
+        print(x)
+        def func2():
+            y = x + 1
+            print(y)
