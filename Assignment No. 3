@@ -10,14 +10,4 @@
 4. What is the difference between a function and a function call?
 ---> function contain some instruction and i want get benefit from function that time i will use function call.
 5. How many global scopes are there in a Python program? How many local scopes?
----> def fun():
-          x = 2022
-          return x
-     here x is local scope, x can only use inside a function
-     ----------------------------------------------------------
-     x = 200
-     def func1():
-        print(x)
-        def func2():
-            y = x + 1
-            print(y)
+---> 
