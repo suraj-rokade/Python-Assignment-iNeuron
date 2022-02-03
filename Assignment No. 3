@@ -10,4 +10,8 @@
 4. What is the difference between a function and a function call?
 ---> function contain some instruction and i want get benefit from function that time i will use function call.
 5. How many global scopes are there in a Python program? How many local scopes?
----> 
+---> there are only one Globle Scope
+     Inside function there are multiple Local Scope
+6. What happens to variables in a local scope when the function call returns?
+---> A local variable becomes undefined after the function call completes.
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
