@@ -20,4 +20,24 @@
 8. If a function does not have a return statement, what is the return value of a call to that function?
 --->it doesnt return any particular value for example if you want to addition of number it will perform addition but not return the results without return statement
 9. How do you make a function variable refer to the global variable?
----> 
+---> def set_globvar_to_one():
+         global globvar    
+         globvar +=1 
+         return glo
+   set_globvar_to_one
+
+10. What is the data type of None?
+---> type of None is NoneType
+11. What does the sentence import areallyourpetsnamederic do?
+---> after importing i get :  ModuleNotFoundError: No module named 'areallyourpetsnamederic'
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+---> import spam
+     spam.bacon()
+13. What can you do to save a programme from crashing if it encounters an error?
+---> i will use try and except block in program.
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+--->TRY CLAUSE: try clause is used when you think that program can crash so you try
+    to run the program and it crashes it wont disturb other part of program
+
+    EXCEPT CLAUSE: except clause is used when you are trying a certain part 
+    of program but it fails so it used as a response to exception.
