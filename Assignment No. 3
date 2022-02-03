@@ -17,3 +17,7 @@
 7. What is the concept of a return value? Is it possible to have a return value in an expression?
 --->It is a special statement in a function used to sent result to caller who called function.
     yes it is possible to have return value in an expression.
+8. If a function does not have a return statement, what is the return value of a call to that function?
+--->it doesnt return any particular value for example if you want to addition of number it will perform addition but not return the results without return statement
+9. How do you make a function variable refer to the global variable?
+---> 
